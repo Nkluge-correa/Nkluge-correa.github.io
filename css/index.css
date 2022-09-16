@@ -89,6 +89,29 @@ html {
     -webkit-animation: hue 10s infinite linear;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e !important;  
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: -webkit-linear-gradient(92deg, #f35626, #feab3a) !important;
+  border-radius: 3px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: -webkit-linear-gradient(92deg, #f35626, #feab3a) !important; 
+}
 /*---------------------------------------------------------*/
 
 /* OTHER */
