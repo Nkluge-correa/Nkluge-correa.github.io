@@ -89,7 +89,8 @@ html {
     -webkit-animation: hue 10s infinite linear;
 }
 
-/* width */
+/* SCROLLBAR STUFF */
+
 ::-webkit-scrollbar {
   width: 10px !important;
   display: block !important;
@@ -261,3 +262,4 @@ a{
 
 /* --------------- */
 
+/* FOR MOBILE */
