@@ -56,11 +56,71 @@ html {
     flex: 1 0 20px;
 }
 
-#third-heading h1:after {
+#fourth-heading h1:after {
+    margin: 15px 0 0 10px;
+}
+
+#fourth-heading h1 {
+    max-width: 1034px;
+    display: flex;
+    font-size: 25px;
+    font-family: monospace;
+    width: 100%;
+    margin-top: 30px
+}
+
+
+#fourth-heading h1:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+#fourth-heading h1:after {
     margin: 15px 0 0 10px;
 }
 
 /* ---------------------------------- */
+/* NAVBAR */
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #111111;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  ul.sidenav li a {
+    display: block;
+    color: #FFFFFF;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+   
+  ul.sidenav li a.active {
+    background-color: #feab3a;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-animation: hue 10s infinite linear;
+    color: white;
+  }
+  
+  ul.sidenav li a:hover:not(.active) {
+    background-color: #feab3a;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-animation: hue 0.5s infinite linear;
+    color: white;
+  }
+  
+  
+/* ---------------------------------- */
+
 
 /* EFFECTS */
 
@@ -263,3 +323,24 @@ a{
 /* --------------- */
 
 /* FOR MOBILE */
+@media screen and (max-width: 1920px) {
+    ul.sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    
+    ul.sidenav li a {
+      float: left;
+      padding: 15px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 400px) {
+    ul.sidenav li a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
