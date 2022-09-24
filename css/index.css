@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+:root {
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    --text-primary: #b6b6b6;
+    --bg-primary: #111111;
+    --transition-speed: 600ms;
+    --gradient-first: #8470ba;
+    --gradient-second: #3606bc;
+  }
 
 body,
 html {
-    background-color: #111111;
-    color: white;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     height: 100%; 
 }
 
@@ -83,63 +92,105 @@ html {
 
 /* ---------------------------------- */
 
-/* SIDEBAR */
+/* NAVBAR */
 
-.sidebar {
-    height: 100%;
-    width: 0;
+.navbar {
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111111;
-    overflow-x: hidden;
-    padding-top: 60px;
+    background-color: var(--bg-primary); 
+    width: 5rem;
+    height: 100vh;
     transition: width 600ms ease;
   }
   
-  .sidebar a {
-    padding: 8px 8px 8px 32px;
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-item {
+    width: 100%;
+  }
+  
+  
+  .navbar:hover {
+    width: 16rem;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
   }
   
-  .sidebar a:hover {
-    color: #f1f1f1;
-    background-color: #b8b8b8;
-    
+  .nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
   }
   
-  .sidebar .closebtn {
+  .link-text {
+    display: none;
+    margin-left: 1rem;
+  }
+  
+  .nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+  }
+  
+  .fa-primary {
+    color: #ff7eee;
+  }
+  
+  .fa-secondary {
+    color: #df49a6;
+  }
+  
+  .fa-primary,
+  .fa-secondary {
+    transition: var(--transition-speed);
+  }
+  
+  .logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    width: 100%;
+  }
+  
+  .logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+  }
+  
+  .logo-text
+  {
+    display: inline;
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    left: -999px;
+    transition: var(--transition-speed);
   }
   
-  .openbtn {
-    font-size: 25px;
-    font-family: 'Hammersmith One', sans-serif;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    padding: 10px 15px;
-    border: none;
+  .navbar:hover .logo svg {
+    transform: rotate(-180deg);
   }
-  
-  .openbtn:hover {
-    background-color: #b8b8b8;
-  }
-  
-  #sidebox {
-    transition: margin-left .5s;
-    padding: 16px;
-  }
-  
+
  
 /* ---------------------------------- */
 
@@ -157,7 +208,7 @@ html {
     letter-spacing: 2px;
     text-align: center;
     color: #8470ba;
-    background-image: -webkit-linear-gradient(92deg, #8470ba,  #3606bc);
+    background-image: -webkit-linear-gradient(92deg, var(--gradient-first), var(--gradient-second));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
@@ -165,7 +216,7 @@ html {
 
 .hue-bold {
     color: #8470ba;
-    background-image: -webkit-linear-gradient(92deg, #8470ba,  #3606bc);
+    background-image: -webkit-linear-gradient(92deg, var(--gradient-first), var(--gradient-second));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
@@ -187,13 +238,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: -webkit-linear-gradient(92deg, #8470ba,  #3606bc) !important;
+  background: -webkit-linear-gradient(92deg, var(--gradient-first), var(--gradient-second)) !important;
   border-radius: 3px; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: -webkit-linear-gradient(92deg, #8470ba,  #3606bc) !important; 
+  background: -webkit-linear-gradient(92deg, var(--gradient-first), var(--gradient-second)) !important; 
 }
 /*---------------------------------------------------------*/
 
@@ -342,12 +393,53 @@ a{
     }
 }
 
-/* --------------- */
 
-/* FOR MOBILE */
-
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+    }
+  
+    .logo {
+      display: none;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .nav-link {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+    }
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      top: 0;
+      width: 5rem;
+      height: 100vh;
+    }
+  
+  
+    .navbar:hover .link-text {
+      display: inline;
+    }
+  
+    .navbar:hover .logo svg
+    {
+      margin-left: 11rem;
+    }
+  
+    .navbar:hover .logo-text
+    {
+      left: 0px;
+    }
   }
   
