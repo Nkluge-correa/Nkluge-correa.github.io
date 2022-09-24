@@ -94,8 +94,8 @@ html {
     left: 0;
     background-color: #111111;
     overflow-x: hidden;
-    transition: 0.5s;
     padding-top: 60px;
+    transition: width 600ms ease;
   }
   
   .sidebar a {
@@ -109,9 +109,7 @@ html {
   
   .sidebar a:hover {
     color: #f1f1f1;
-    background-color: #feab3a;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-    -webkit-animation: hue 10s infinite linear;
+    background-color: #b8b8b8;
     
   }
   
@@ -134,9 +132,7 @@ html {
   }
   
   .openbtn:hover {
-    background-color: #feab3a;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-    -webkit-animation: hue 10s infinite linear;
+    background-color: #b8b8b8;
   }
   
   #sidebox {
@@ -160,16 +156,16 @@ html {
     font-weight: 100;
     letter-spacing: 2px;
     text-align: center;
-    color: #f35626;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    color: #8470ba;
+    background-image: -webkit-linear-gradient(92deg, #8470ba,  #3606bc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
 }
 
 .hue-bold {
-    color: #f35626;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    color: #8470ba;
+    background-image: -webkit-linear-gradient(92deg, #8470ba,  #3606bc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
@@ -191,13 +187,13 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: -webkit-linear-gradient(92deg, #f35626, #feab3a) !important;
+  background: -webkit-linear-gradient(92deg, #8470ba,  #3606bc) !important;
   border-radius: 3px; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: -webkit-linear-gradient(92deg, #f35626, #feab3a) !important; 
+  background: -webkit-linear-gradient(92deg, #8470ba,  #3606bc) !important; 
 }
 /*---------------------------------------------------------*/
 
