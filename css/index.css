@@ -4,7 +4,7 @@
     font-family: 'Hammersmith One', sans-serif;
     --text-primary: #b6b6b6;
     --bg-primary: #111111;
-    --transition-speed: 600ms;
+    --transition-speed: 800ms;
     --gradient-first: #8470ba;
     --gradient-second: #3606bc;
   }
@@ -99,7 +99,7 @@ html {
     background-color: var(--bg-primary); 
     width: 5rem;
     height: 100vh;
-    transition: width 600ms ease;
+    transition: width var(--transition-speed) ease;
   }
   
   .navbar-nav {
