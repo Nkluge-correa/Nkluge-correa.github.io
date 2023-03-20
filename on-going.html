@@ -1,382 +1,285 @@
-﻿<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Ongoing Research 🔬</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-Frame-Options" content="deny">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="/assets/favicon.ico">
+
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1c3b2e895a.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/9023a78927.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-      if ( window.self !== window.top ) {
-          window.top.location.href=window.location.href;
-          alert("For security reasons, framing is not allowed. :(")
-      }
-    </script>
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
-    <link rel="icon" href="/assets/Portfolio Icon.jfif">
-    <style>
-      .skiptranslate, #google_translate_element {display: none;}
-       body {min-height: 0px !important; position: static !important; top: 0px !important;}
-   </style>
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
-   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-   <script type="text/javascript" src="./js/sidebar.js"></script>
-</head>
 
-<body>
-  <br><br>
-  <nav class="navbar">
-    <ul class="navbar-nav">
-      <li class="logo">
-        <a href="https://github.com/Nkluge-correa" class="nav-link">
-          <span class="link-text logo-text">Hey 👋</span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-fast-forward" viewBox="0 0 16 16">
-            <path d="M6.804 8 1 4.633v6.734L6.804 8Zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z" class="fa-primary"/>
-            <path d="M14.804 8 9 4.633v6.734L14.804 8Zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692Z" class="fa-secondary"/>
-          </svg>
-        </a>
-      </li>
-
-    <li class="nav-item">
-      <a href="index.html#about" class="nav-link">
-        <span class="link-text">About</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
-          <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z" class="fa-primary"/>
-          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" class="fa-secondary"/>
-        </svg>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a href="index.html#second-heading" class="nav-link">
-        <span class="link-text">Skills</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
-          <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z" class="fa-primary"/>
-        </svg>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a href="index.html#third-heading" class="nav-link">
-        <span class="link-text">Projects</span>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" class="fa-primary"></path>
-          <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" class="fa-secondary"></path>
-       </svg>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a href="on-going.html" class="nav-link">
-        <span class="link-text">Ongoing<br>Research</span>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hammer" width="25" height="25" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M11.414 10l-7.383 7.418a2.091 2.091 0 0 0 0 2.967a2.11 2.11 0 0 0 2.976 0l7.407 -7.385" class="fa-primary"></path>
-          <path d="M18.121 15.293l2.586 -2.586a1 1 0 0 0 0 -1.414l-7.586 -7.586a1 1 0 0 0 -1.414 0l-2.586 2.586a1 1 0 0 0 0 1.414l7.586 7.586a1 1 0 0 0 1.414 0z" class="fa-secondary"></path>
-       </svg>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a href="index.html#fourth-heading" class="nav-link">
-        <span class="link-text">Publications</span>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notes" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <rect x="5" y="3" width="14" height="18" rx="2" class="fa-primary"></rect>
-          <line x1="9" y1="7" x2="15" y2="7"></line>
-          <line x1="9" y1="11" x2="15" y2="11"></line>
-          <line x1="9" y1="15" x2="13" y2="15"></line>
-       </svg>
-      </a>
-    </li>
-
-    <li class="nav-item">
-      <a href="index.html#connect" class="nav-link">
-        <span class="link-text">Contact</span>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gmail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M16 20h3a1 1 0 0 0 1 -1v-14a1 1 0 0 0 -1 -1h-3v16z" class="fa-primary"></path>
-          <path d="M5 20h3v-16h-3a1 1 0 0 0 -1 1v14a1 1 0 0 0 1 1z" class="fa-secondary"></path>
-          <path d="M16 4l-4 4l-4 -4"></path>
-          <path d="M4 6.5l8 7.5l8 -7.5"></path>
-       </svg>
-      </a>
-    </li>
-    </ul>
-  </nav>
-
-  <div id="main-box">
-
-    <div class="d-flex justify-content-center" id="about-me">
-        <div class="d-flex">
-            <div class="flex-shrink-0">
-
-                <img class="gradiant-effect" src="assets/aireslogo.png" alt="image">
-            </div>
-            <div class="flex-grow-1 ms-5 name-heading">
-
-                <h1>Ongoing Research</h1>
-
-                <p class="gray-text">
-                    <br>
-                    <b>Here you will find a list of projects that AIRES at PUCRS is currently developing.</b><br>
-                    <br>
-                    <b>Feel invited to <b class="hue-bold"><a href="mailto:airespucrs@airespucrs.org" target="_blank" rel="noopener noreferrer">contact us</a></b> if you are interested in joining any of these efforts!</b>🤗
-                    <br>
-                </p>       
-            </div>
-        </div>
-    </div>
-
-    <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
-      <h1 id="worldwide-ai-ethics-🌎">Worldwide AI Ethics 🌎</h1>
-  </div>
-  <br>
-  <div class="d-flex justify-content-center" id="about-me">
-      <div class="d-flex">
-          <div class="flex-grow-1 md-6 name-heading" style="text-align:center">
-
-              <h2>Description 📝</h2>
-              <br>
-              <p class="gray-text">
-                <b class="hue-bold"><a href="https://aires-playground.herokuapp.com/worldwide-ai-ethics" target="_blank" rel="noopener noreferrer">Worldwide AI Ethics</a></b> 
-                is a <b>systematic literature review done by AIRES researchers</b>. Building on the work done by other 
-                  meta-analysts, this study presents an analysis of <i>200</i> documents related to AI ethics and governance, presenting a 
-                  collection of typologies used to classify our sample, all condensed into an interactive, freely accessible online tool.
-              </p>
-              <br>
-              <h2>Activities 💼</h2>
-              <br>
-              <p class="gray-text">
-                Extend the Worldwide AI Ethics sample. <b>We intend to keep on making AIRES the number one meta-analysis of the field</b>>. 
-                For this, we need to keep updating our dashboard with new documents. <i>The research involves searching and analyzing documents
-                  (AI Ethics Guidelines, Bills, Legislation, Governance Frameworks, Codes of Conduct) related to AI Governance</i>. 
-                  Documents and their respective information are submitted via google forms to a central spreadsheet for further analysis and 
-                  post-processing. <b>We would like to make new publications as soon as we have a bigger and more representative sample size (e.g., 300 documents).</b> 
-                  We would like to have the help of <i>people who understand different languages</i>, so we can analyze documents from different places and cultures.
-              </p>
-              <br>
-              <h2>Researcher Profile 👤</h2>
-              <br>
-              <p class="gray-text">
-                <b>People wanting to learn about AI Ethics, AI governance, and AI regulation</b>. Students from the fields of Law, Philosophy, 
-                and Social Sciences were the main contributors to the first iteration of this research. Since this is a review, it's a great 
-                way for anyone that wants to learn more about the field to "<i>get started</i>."
-              </p>
-              <br>
-            </div>
-          </div>
+    <title>Nicholas Kluge</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <div class="header-name">
+        <img 
+        class="gradiant-effect" 
+        src="assets/logo.png" 
+        alt="Website Logo - a skateboarder upside down."
+        />
+        <h3>
+          <a href="https://nkluge-correa.github.io/" class="link"
+            >NK-Correa.</a
+          >
+        </h3>
       </div>
-      <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
-        <h1 id="ai-risk-monitoring-💥">AI Risk Monitoring 💥</h1>
-    </div>
-    <br>
-    <div class="d-flex justify-content-center" id="about-me">
-        <div class="d-flex">
-            <div class="flex-grow-1 md-6 name-heading" style="text-align:center">
-  
-                <h2>Description 📝</h2>
-                <br>
-                <p class="gray-text">
-                  We are currently <b  class="hue-bold"><a  href="https://aires-playground.herokuapp.com/model-library"  target="_blank"  rel="noopener noreferrer">building a library of published machine learning models</a></b>. 
-                  <b>This library contains information about these models, their capabilities, and the possible risks (together with ethical concerns) 
-                    regarding their development/utilization.</b> The aim is to map the biggest problems and threats that contemporary AI poses to our society.
-                </p>
-                <br>
-                <h2>Activities 💼</h2>
-                <br>
-                <p class="gray-text">
-                  This research involves searching for AI systems currently being used (especially the most proficient). <b>You will have to read and learn about their workings, 
-                    how they were developed, and how they operate, so you can create a preliminary risk/ethical evaluation.</b> Information is 
-                    usually found in the form of publications, code repositories, model cards, and similar sources.
-                </p>
-                <br>
-                <h2>Researcher Profile 👤</h2>
-                <br>
-                <p class="gray-text">
-                  <b>People interested in learning about state-of-the-art in Machine Learning, Robotics, and AI system development.</b> 
-                  Students from any field can learn, but people with more technical backgrounds (e.g., Computer Science) will probably 
-                  have an easier time understanding the papers and technical descriptions. Since this is a review, it's a great way for 
-                  anyone that wants to learn more about the field to "<i>get started</i>."
-                </p>
-                <br>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#about">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#research">Research</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#publications">Publications</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Publications -->
+      <section class="section research" id="research">
+        <div class="research center">
+          <h1 class="research__page__title">Ongoing Research</h1>
+
+          <h2 class="research__title">Worldwide AI Ethics 🌎</h2>
+
+          <h3 class="research__subtitle">Description 📝</h3>
+            <div class="research__abstract">
+                Worldwide AI Ethics is a <b class="gradiant-effect">systematic literature review</b> done by AIRES researchers. 
+                Building on the work done by other meta-analysts, this study presents an analysis of 
+                200 documents related to AI ethics and governance, presenting a collection of 
+                typologies used to classify our sample, all condensed into an interactive, 
+                freely accessible online tool.
+            </div>
+          <h3 class="research__subtitle">Activities 💼</h3>
+            <div class="research__abstract">
+                <b class="gradiant-effect">Extend the Worldwide AI Ethics sample</b>. We intend to keep on making AIRES the number 
+                one meta-analysis of the field. For this, we need to keep updating our dashboard with 
+                new documents. The research involves searching and analyzing documents (AI Ethics 
+                Guidelines, Bills, Legislation, Governance Frameworks, Codes of Conduct) related to 
+                AI Governance. Documents and their respective information are submitted via google 
+                forms to a central spreadsheet for further analysis and post-processing. We would 
+                like to make new publications as soon as we have a bigger and more representative 
+                sample size (e.g., 300 documents). We would like to have the help of people who 
+                understand different languages, so we can analyze documents from different places 
+                and cultures.
+            </div>
+          <h3 class="research__subtitle">Researcher Profile 👤</h3>
+            <div class="research__abstract">
+                People wanting to learn about AI Ethics, AI governance, and AI regulation. Students 
+                from the fields of Law, Philosophy, and Social Sciences were the main contributors to 
+                the first iteration of this research. <b class="gradiant-effect">Since this is a review, it's a great way for 
+                anyone that wants to learn more about the field to "get started."</b>
+            </div>
+
+            <h2 class="research__title">Model Library 📚</h2>
+
+            <h3 class="research__subtitle">Description 📝</h3>
+              <div class="research__abstract">
+                We are currently building a <b class="gradiant-effect">library of published machine learning models</b>. This library 
+                contains information about these models, their capabilities, and the possible risks 
+                (together with ethical concerns) regarding their development/utilization. The aim is to map 
+                the biggest problems and threats that contemporary AI poses to our society.
               </div>
-            </div>
-        </div>
-        <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
-          <h1 id="ethical-dilemmas-in-software-development-⚖️">Ethical Dilemmas in Software Development ⚖️</h1>
-      </div>
-      <br>
-      <div class="d-flex justify-content-center" id="about-me">
-          <div class="d-flex">
-              <div class="flex-grow-1 md-6 name-heading" style="text-align:center">
+            <h3 class="research__subtitle">Activities 💼</h3>
+              <div class="research__abstract">
+                This research involves searching for AI systems currently being used (especially 
+                the most proficient). <b class="gradiant-effect">You will have to read and learn about their workings, 
+                how they were developed, and how they operate, so you can create a preliminary 
+                risk/ethical evaluation</b>. Information is usually found in the form of publications, 
+                code repositories, model cards, and similar sources.
+              </div>
+            <h3 class="research__subtitle">Researcher Profile 👤</h3>
+              <div class="research__abstract">
+                People interested in learning about state-of-the-art in Machine Learning, Robotics, 
+                and AI system development. Students from any field can learn, but people with more 
+                technical backgrounds (e.g., Computer Science) will probably have an easier time 
+                understanding the papers and technical descriptions. <b class="gradiant-effect">Since this is a review, it's a 
+                great way for anyone that wants to learn more about the field to "get started."</b>
+              </div>
+            
+              <h2 class="research__title">Ethical Dilemmas in Software Development ⚖️</h2>
+
+              <h3 class="research__subtitle">Description 📝</h3>
+                <div class="research__abstract">
+                    We are currently <b class="gradiant-effect">building a web application to automate an experiment in moral philosophy.</b> 
+                    This experiment aims to find out how ethical guidelines influence software developers' 
+                    decision making. We also are seeking to investigate different forms of how we can 
+                    "teach ethics" in STEM fields.
+                </div>
+              <h3 class="research__subtitle">Activities 💼</h3>
+                <div class="research__abstract">
+                    This research involves <b class="gradiant-effect">applying the tool of our research</b>. Showing it to possible respondents. Conducting 
+                    controlled surveys, and similar tasks.
+                </div>
+              <h3 class="research__subtitle">Researcher Profile 👤</h3>
+                <div class="research__abstract">
+                    Experimental research is usually a little bit more tricky. We would like to encourage 
+                    anyone who wants to help to join efforts with us (there are activities besides 
+                    data collection you can help with), but if you want to help with the experiment 
+                    design and data collection, some <b class="gradiant-effect">experience in experimental research would be good</b>.
+                </div>
+            
+            <h2 class="research__title">Teeny-tiny Castle 🏰</h2>
+
+            <h3 class="research__subtitle">Description 📝</h3>
+                <div class="research__abstract">
+                    The Teeny-tiny Castle is a <b class="gradiant-effect">repository of educational tools for AI Ethics and Safety research</b>. 
+                    It is a python based course on how to create and use tools for addressing certain safety issues
+                     in AI (e.g., interpretability, sustainability, fairness, robustness). In it, you can also find an 
+                     introductory course on ML (Machine Learning).
+                </div>
+            <h3 class="research__subtitle">Activities 💼</h3>
+                <div class="research__abstract">
+                    This research involves programming and software development in Python. <b class="gradiant-effect">It is basically the job 
+                    of training, evaluating, and attacking ML models</b>. Showing how to do this in a clear and 
+                    instructive way. We should also look for new libraries and tools to use. And, in the end, 
+                    convert all accumulated knowledge into a GitHub repository.
+                </div>
+            <h3 class="research__subtitle">Researcher Profile 👤</h3>
+                <div class="research__abstract">
+                    People with experience in Python, ML, Data Science, and programming in general. 
+                    <b class="gradiant-effect">Cybersecurity enthusiasts are welcome</b>!
+                </div>
+
+            <h2 class="research__title">Ai.ra - the AIRES Expert 🤖</h2>
+
+            <h3 class="research__subtitle">Description 📝</h3>
+                <div class="research__abstract">
+                    Ai.ra is a chatbot. Ai.ra is designed to simulate the way a human (expert) would behave 
+                    during a round of questions and answers (Q&A). Ai.ra is a closed domain chatbot designed to 
+                    topics related to artificial intelligence, machine learning, AI ethics, and AI safety. 
+                    We are currently looking to increase the reach of our system and make it an even better tool. 
+                    <b class="gradiant-effect">The goal of Ai.ra is to serve as a learning assistant in topics related to AI ethics and safety</b>.
+                </div>
+            <h3 class="research__subtitle">Activities 💼</h3>
+                <div class="research__abstract">
+                    Increase the vocabulary and domain expertise of our Language model. Adding more languages is 
+                    something we would like to implement. <b class="gradiant-effect">The activity mainly consists of improving the vocabulary, 
+                    code, and domain expertise of our model.</b>
+                </div>
+            <h3 class="research__subtitle">Researcher Profile 👤</h3>
+                <div class="research__abstract">
+                    People who master more than one language, and have an interest in creating a "glossary" of useful terms to know 
+                    while learning about our field of research. <b class="gradiant-effect">Individuals with expertise in NLP and language modelling 
+                    (specifically chatbots) are very welcome!</b>
+                </div>
     
-                  <h2>Description 📝</h2>
-                  <br>
-                  <p class="gray-text">
-                    We are currently building a web application to automate an experiment in moral philosophy. <b class="hue-bold">This experiment aims to 
-                      find out how ethical guidelines influence software developers' decision making.</b> We also are seeking to investigate 
-                      different forms of how we can "<i>teach ethics</i>" in STEM fields.
-                  </p>
-                  <br>
-                  <h2>Activities 💼</h2>
-                  <br>
-                  <p class="gray-text">
-                    <b>This research involves spreading the tool of our research. Showing it to possible respondents. Conducting controlled surveys, 
-                      and similar tasks</b>.
-                  </p>
-                  <br>
-                  <h2>Researcher Profile 👤</h2>
-                  <br>
-                  <p class="gray-text">
-                    Experimental research is usually a little bit more tricky. We would like to encourage anyone who wants to help to join efforts 
-                    with us (<i>there are activities besides data collection you can help with</i>), but if you want to help with the experiment 
-                    design and data collection, <b>some experience in experimental research would be good</b>.
-                  </p>
-                  <br>
+            <h2 class="research__title">"AI Ethics Tool" Development 🛠️</h2>
+
+            <h3 class="research__subtitle">Description 📝</h3>
+                <div class="research__abstract">
+                    We are currently developing two types of tools: <b class="gradiant-effect">EPS (Ethical Problem Solving) and a series of AIAs (Algorithmic Impact Assessment)</b>. 
+                    These tools are made to troubleshoot developers and help them create systems in a human-centric way (value-sensitive design). 
+                    AIAs are intended to evaluate the potential risks of an AI application (ex-ante).
                 </div>
-              </div>
-          </div>
-          <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
-            <h1 id="teeny-tiny-castle-🏰">Teeny-tiny Castle 🏰</h1>
+            <h3 class="research__subtitle">Activities 💼</h3>
+                <div class="research__abstract">
+                    Studying existing tools, and helping other researchers to <b class="gradiant-effect">develop new and better methods to incorporate ethics 
+                    inside AI system development</b>.
+                </div>
+            <h3 class="research__subtitle">Researcher Profile 👤</h3>
+                <div class="research__abstract">
+                    People that are interested in creating tools like surveys and self-assessment questionnaires. 
+                    <b class="gradiant-effect">All areas of knowledge are welcome in this endeavor, especially the Humanities and STEM fields.</b> 
+                    People with very specific backgrounds (e.g., psychology) can help to create tools aimed at 
+                    assessing AI applications aimed at specific areas (e.g., mental health).
+                </div>
+
+      </section>  
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:nicholas@airespucrs.org">
+          <span class="btn btn--outline">Contact me</span>
+        </a>
+
+        <div style="text-align: center; margin-top: 1rem;">
+
+          <a
+          href="https://discord.gg/svqnu3GNeV"
+          data-tippy-content="Join my Discord Channel"
+          class="link link--icon"
+          target="_blank" 
+          rel="noopener noreferrer"
+          >
+          <i aria-hidden="true" class="fa-brands fa-discord"></i>
+          </a>
+
         </div>
-        <br>
-        <div class="d-flex justify-content-center" id="about-me">
-            <div class="d-flex">
-                <div class="flex-grow-1 md-6 name-heading" style="text-align:center">
-      
-                    <h2>Description 📝</h2>
-                    <br>
-                    <p class="gray-text">
-                      The <code>Teeny-tiny Castle</code>  is a <b  class="hue-bold"><a  href="https://github.com/Nkluge-correa/teeny-tiny_castle"  target="_blank"  rel="noopener noreferrer">repository of educational tools for AI Ethics and Safety research</a></b>. 
-                      It is a python based course on how to create and use tools for addressing certain <i>safety issues</i> in AI (e.g., <code>interpretability, 
-                        sustainability, fairness, robustness</code>). You can also find an <b>introductory course on ML (Machine Learning)</b>.
-                    </p>
-                    <br>
-                    <h2>Activities 💼</h2>
-                    <br>
-                    <p class="gray-text">
-                      This research involves programming and software development in Python. <b>It is basically the job of training, evaluating, and attacking ML models.</b> 
-                      Showing how to do this in a clear and instructive way. We should also look for new libraries and tools to use. And, in the end, 
-                      <i>convert all accumulated knowledge into a python module</i>
-                    </p>
-                    <br>
-                    <h2>Researcher Profile 👤</h2>
-                    <br>
-                    <p class="gray-text">
-                      <b>People with experience in Python, ML, Data Science, and programming in general.</b> <i>Cybersecurity enthusiasts are welcome!</i>
-                    </p>
-                    <br>
-                  </div>
-                </div>
-            </div>
-            <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
-              <h1 id="ai.ra---the-aires-expert--🤖">Ai.ra - the AIRES Expert 🤖</h1>
-          </div>
-          <br>
-          <div class="d-flex justify-content-center" id="about-me">
-              <div class="d-flex">
-                  <div class="flex-grow-1 md-6 name-heading" style="text-align:center">
-        
-                      <h2>Description 📝</h2>
-                      <br>
-                      <p class="gray-text">
-                        <b  class="hue-bold"><a  href="https://aires-playground.herokuapp.com/aira"  target="_blank"  rel="noopener noreferrer">Ai.ra</a></b> is a <code>chatbot</code>. 
-                        Ai.ra is designed to simulate the way a <b>human (expert)</b> would behave during a round of questions and answers (<b>Q&A</b>). 
-                        <b>Ai.ra is a closed domain chatbot</b> designed to topics related to <code>artificial 
-                          intelligence, machine learning,  AI ethics,</code> and <code>AI safety</code>. We are currently 
-                          looking to increase the reach of our system and make it an even better tool. <b class="hue-bold">The goal of Ai.ra is to serve as a learning assistant 
-                            in topics related to AI ethics and safety.</b>
-                      </p>
-                      <br>
-                      <h2>Activities 💼</h2>
-                      <br>
-                      <p class="gray-text">
-                        Increase the vocabulary and domain expertise of our Language model. <i>Adding more languages is something we would like to implement</i>. <b>The activity mainly consists 
-                          of improving the vocabulary, code, and domain expertise of our model.</b>
-                      </p>
-                      <br>
-                      <h2>Researcher Profile 👤</h2>
-                      <br>
-                      <p class="gray-text">
-                        People who <b>master more than one language, and have an interest in creating a "<i>glossary</i>" of useful terms to know while learning about our field of research</b>. 
-                        Individuals with <i>expertise in NLP and language modelling (specifically chatbots)</i> are very welcome!
-                      </p>
-                      <br>
-                    </div>
-                  </div>
-              </div>
-              <div class="container-xxl gradiant-effect" style=" max-width: 1034px;" id="third-heading">
-                <h1 id="ai-ethics-tool-development-🛠️">"<i>AI Ethics Tool</i>" Development 🛠️</h1>
-            </div>
-            <br>
-            <div class="d-flex justify-content-center" id="about-me">
-                <div class="d-flex">
-                    <div class="flex-grow-1 md-6 name-heading" style="text-align:center">
-          
-                        <h2>Description 📝</h2>
-                        <br>
-                        <p class="gray-text">
-                          We are currently developing two types of tools: an <b>EPS</b> (<i>Ethical Problem Solving</i>) and an <b>AIA</b> 
-                          (<i>Algorithmic Impact Assessment</i>). <b class="hue-bold">These tools are made to troubleshoot developers and help them create systems 
-                            in a human-centric way (<i>value-sensitive design</i>).  AIAs are intended to evaluate the potential risks of an AI application 
-                            (<i>ex-ante</i>).</b>
-                        </p>
-                        <br>
-                        <h2>Activities 💼</h2>
-                        <br>
-                        <p class="gray-text">
-                          <b>Studying existing tools, and helping other researchers to develop new and better methods to incorporate ethics inside AI system development.</b>
-                        </p>
-                        <br>
-                        <h2>Researcher Profile 👤</h2>
-                        <br>
-                        <p class="gray-text">
-                          People that are interested in creating tools like surveys and self-assessment questionnaires. <b>All areas of knowledge are welcome in this 
-                            endeavor, especially the Humanities and STEM fields.</b> People with very specific backgrounds (e.g., <b>psychology</b>) can help to create 
-                            tools aimed at assessing AI applications developed for, for example, <i>automating activities conducted by mental health professionals</i> 
-                            (e.g., therapy).
-                        </p>
-                        <br>
-                      </div>
-                    </div>
-                </div>
-                <br><br>
+      </section>
 
-        <div class="d-flex justify-content-center align-content-between flex-wrap" id="skills">
-          <a href="https://en.airespucrs.org/"><i class="fa-solid fa-scale-balanced fa-4x skills-icon" data-tippy-content="Go to AIRES at PUCRS"></i></a>
-          <a href="index.html"><i class="fa-brands fa-square-github fa-4x skills-icon" data-tippy-content="Back to Nicholas.io"></i></a>
-        </div>
-        <br><br>
-        <!-- Footer  -->
-        <footer class="sticky__footer">
-            <p>Made with <span class="heart">&#129302;</span> by <a href="https://github.com/Nkluge-correa" class="hue-bold">Nkluge-correa</a></p>
-        </footer>
+    </main>
 
-        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <footer class="footer">
+      <a
+        href="https://github.com/Nkluge-correa"
+        class="link footer__link"
+      >
+        Created By Nicholas Kluge
+      </a>
+    </footer>
 
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-4fd6d63f-c493-4a30-8558-af66a359e9ef" align="center"></div>
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
 
-        <script>
-            tippy('[data-tippy-content]', {
-                arrow: false,
-                inertia: true,
-                animation: 'scale',
-                theme: 'gradiant',
-                placement: 'bottom',
-            });
-        </script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 
-</body>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-4fd6d63f-c493-4a30-8558-af66a359e9ef" align="center"></div>
 
+    <script>
+        tippy('[data-tippy-content]', {
+            arrow: false,
+            inertia: true,
+            animation: 'scale',
+            theme: 'gradiant',
+            placement: 'bottom',
+        });
+    </script>
+  </body>
 </html>
