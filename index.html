@@ -87,26 +87,32 @@
         <h1>Hello! I am <span class="link about__name">Nicholas Kluge.</span></h1>
         <h2 class="about__role">Machine Learning Engineer</h2>
         <div class="about__desc">
-          I am a Ph.D. student and a Master in Electrical Engineering from the <a href="https://www.pucrs.br/" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">Pontifical Catholic University of Rio Grande do Sul</b></a> (PUC-RS). Currently, I'm finishing my Ph.D. at the <a href="https://www.uni-bonn.de/en?set_language=en" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">Bonn University</b></a> (Germany).
+          I am a postdoc researcher at the Center for Science and Thought at the 
+          <a href="https://www.uni-bonn.de/en?set_language=en" target="_blank" rel="noopener noreferrer">
+            <b class="gradiant-effect">Bonn University</b></a> (Germany). I am also the president of the 
+            <a href="https://www.pucrs.br/en/" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">
+              PUC-RS</b></a> chapter of the <a href="https://www.airespucrs.org/en" target="_blank" rel="noopener noreferrer">
+                <b class="gradiant-effect">AI Robotics Ethics Society</b></a>. 
           <br><br>
-          I am also the president of the PUC-RS chapter of the <a href="https://en.airespucrs.org/" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">AI Robotics Ethics Society</b></a>. 
-          <br><br>
-          I work as a <a href="https://www.researchgate.net/profile/Nicholas-Correa-2" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">Machine Learning Engineer</b></a>, and my main area of research is <i>AI Ethics</i>, <i>AI Safety</i>, and <i>AI Alignment</i>. I like writing, programming, studying, skateboarding, and playing D&D. If you would like to work with me, <a href="on-going.html"><b class="gradiant-effect">check out my ongoing research projets</b></a>!
+          I work as a <a href="https://github.com/Nkluge-correa" target="_blank" rel="noopener noreferrer">
+            <b class="gradiant-effect">Machine Learning Engineer</b></a>, and my main areas of research are 
+            <i>AI Ethics</i>, <i>AI Safety</i>, and <i>AI Alignment</i>. I like writing, developing code, 
+            studying, skateboarding, and playing D&D. If you would like to work with me, 
+            <a href="on-going.html"><b class="gradiant-effect">check out my ongoing research projets</b></a>!
       </div>
-
+      
       <!-- Skills -->
       <section class="section skills" id="skills">
         <h2 class="section__title">Skills</h2>
         <div class="skills__list">
-          <i class="fa-solid fa-code fa-4x skills-icon" data-tippy-content="Software Development"></i>
-          <i class="fa-solid fa-robot fa-4x skills-icon" data-tippy-content="Machine Learning"></i>
+          <i class="fa-solid fa-robot fa-4x skills-icon" data-tippy-content="Deep Learning"></i>
+          <i class="fa-solid fa-language fa-4x skills-icon" data-tippy-content="Natural Language Processing"></i>
           <i class="fa-solid fa-chart-column fa-4x skills-icon" data-tippy-content="Data Science"></i>
-          <i class="fa-solid fa-user-secret fa-4x skills-icon" data-tippy-content="Cyber Security"></i>
+          <i class="fa-solid fa-code fa-4x skills-icon" data-tippy-content="Software Development"></i>
           <i class="fa-brands fa-python fa-4x skills-icon" data-tippy-content="Python"></i>
           <i class="fa-brands fa-css3-alt fa-4x skills-icon" data-tippy-content="CSS"></i>
           <i class="fab fa-html5 fa-4x skills-icon" data-tippy-content="HTML"></i>
           <i class="fab fa-brands fa-square-js fa-4x skills-icon" data-tippy-content="JavaScript"></i>
-          <i class="fa-brands fa-discord fa-4x skills-icon" data-tippy-content="Discord"></i>
       </div>
       </section>
 
@@ -150,20 +156,130 @@
         <h2 class="section__title">Projects</h2>
 
         <div class="projects__grid">
+
+          <div class="project">
+            <div class="card-title">
+              <img src="https://cdn-icons-png.flaticon.com/512/3180/3180859.png" width="40px">
+              <h3>TeenyTinyLlama</h3>
+              <p class="project__description">
+                TeenyTinyLlama is a pair of open-source compact language models based on the Llama 
+                2 architecture trained on a Brazilian Portuguese corpus.
+              </p>
+            </div>
+            <p class="project__description">
+              
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Transformers</li>
+              <li class="project__stack-item">PyTorch</li>
+              <li class="project__stack-item">Hugging Face</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nkluge-correa/TeenyTinyLlama"
+              data-tippy-content="GitHub 🦙"
+              class="link link--icon"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://huggingface.co/collections/nicholasKluge/teenytinyllama-6582ea8129e72d1ea4d384f1"
+              data-tippy-content="Hugging Face 🤗"
+              class="link link--icon"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <div class="card-title">
+              <img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" width="40px">
+              <h3>Aira</h3>
+            </div>
+            <p class="project__description">
+              Aira is a series of chatbots achieved via instruction-tuning and DPO, 
+              developed as part of my doctoral dissertation, <i>"Dynamic Normativity: Necessary and Sufficient Conditions 
+                for Value Alignment."</i>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Transformers</li>
+              <li class="project__stack-item">PyTorch</li>
+              <li class="project__stack-item">Hugging Face</li>
+            </ul>
+
+            <a
+              href="https://github.com/Nkluge-correa/Aira"
+              data-tippy-content="GitHub 🤓"
+              class="link link--icon"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://nkluge-correa.github.io/Aira/"
+              data-tippy-content="Demo 🤓"
+              class="link link--icon"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <div class="card-title">
+              <img src="https://cdn-icons-png.flaticon.com/512/2274/2274415.png" width="40px">
+              <h3>Worldwide AI Ethics</h3>
+            </div>
+            <p class="project__description">
+              Worldwide AI Ethics is a systematic review of 200 documents ethical guidelines for AI governance 
+              that produced one of the most comprehensive databases of AI ethics principles.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Dash</li>
+            </ul>
+
+            <a
+            href="https://github.com/Nkluge-correa/worldwide_AI-ethics"
+            data-tippy-content="GitHub 🌎"
+            class="link link--icon"
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://nkluge-correa.github.io/worldwide_AI-ethics/"
+              data-tippy-content="Paper's Website"
+              class="link link--icon"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
           <div class="project">
             <div class="card-title">
               <img src="https://cdn-icons-png.flaticon.com/512/427/427533.png" width="40px">
               <h3>Teeny-Tiny Castle</h3>
             </div>
             <p class="project__description">
-              Learn how to create and use <code>tools</code> for addressing 
-              safety issues in AI. <br> You can also find an introductory course on 
-              ML organized by the AIRES at PUCRS!
+              Learn how to tackle ethical and safety issues in AI. This project is a series of
+              interactive tutorials that teach you how to use AI responsibly.
             </p>
             <ul class="project__stack">
               <li class="project__stack-item">Scikit-learn</li>
-              <li class="project__stack-item">Keras</li>
-              <li class="project__stack-item">Pytorch</li>
+              <li class="project__stack-item">TensorFlow</li>
+              <li class="project__stack-item">PyTorch</li>
             </ul>
 
             <a
@@ -179,70 +295,6 @@
 
           <div class="project">
             <div class="card-title">
-              <img src="https://cdn-icons-png.flaticon.com/512/1374/1374723.png" width="40px">
-              <h3>AIRES Playground</h3>
-              <p class="project__description">
-              The AIRES Playground is a web app that contains all of the tools and research results made 
-              possible by AIRES at PUCRS. There, one can find language model playgrounds, chatbots, tutorials, 
-              research results, and much more.
-              </p>
-            </div>
-            <p class="project__description">
-              
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">Dash</li>
-              <li class="project__stack-item">Hugging Face</li>
-            </ul>
-
-            <a
-              href="https://playground.airespucrs.org/"
-              data-tippy-content="AIRES Playground 🎮"
-              class="link link--icon"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <div class="card-title">
-              <img src="https://cdn-icons-png.flaticon.com/512/2814/2814666.png" width="40px">
-              <h3>Aira</h3>
-            </div>
-            <p class="project__description">
-              Aira is a series of open-domain <code>chatbots</code> (Portuguese and English) achieved via instruction-tuning and RLHF.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">PyTorch</li>
-              <li class="project__stack-item">Transformers</li>
-            </ul>
-
-            <a
-              href="https://github.com/Nkluge-correa/Aira"
-              data-tippy-content="Aira's GitHub"
-              class="link link--icon"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://nkluge-correa.github.io/Aira/"
-              data-tippy-content="Aira Demo"
-              class="link link--icon"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <div class="card-title">
               <img src="https://cdn-icons-png.flaticon.com/512/994/994377.png" width="40px">
               <h3>AIRES at PUCRS</h3>
             </div>
@@ -252,48 +304,13 @@
             </p>
             <ul class="project__stack">
               <li class="project__stack-item">PUC-RS</li>
-              <li class="project__stack-item">Brown</li>
-              <li class="project__stack-item">UCLA</li>
+              <li class="project__stack-item">Philosophy</li>
+              <li class="project__stack-item">Computer Science</li>
             </ul>
 
             <a
               href="https://en.airespucrs.org/"
-              data-tippy-content="Join AIRES at PUCRS ⚖️"
-              class="link link--icon"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <div class="card-title">
-              <img src="https://cdn-icons-png.flaticon.com/512/2274/2274415.png" width="40px">
-              <h3>Worldwide AI Ethics</h3>
-            </div>
-            <p class="project__description">
-              Here you can find the <code>source code</code> used to create our Worldwide AI Ethics 
-              dashboard, a systematic review of 200 documents ethical guidelines for AI governance.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">Dash</li>
-            </ul>
-
-            <a
-            href="https://github.com/Nkluge-correa/worldwide_AI-ethics"
-            data-tippy-content="Worldwide AI Ethics 🌎"
-            class="link link--icon"
-            target="_blank" 
-            rel="noopener noreferrer"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-
-            <a
-              href="https://nkluge-correa.github.io/worldwide_AI-ethics/"
-              data-tippy-content="Paper Website"
+              data-tippy-content="AIRES at PUCRS ⚖️"
               class="link link--icon"
               target="_blank" 
               rel="noopener noreferrer"
@@ -335,13 +352,13 @@
               <h3>Sk8 Trick Classifier</h3>
             </div>
             <p class="project__description">
-              This repository contains <code>accelerometry signals</code> from skateboarding tricks, 
-              together with a trained <code>neural network</code> to distinguish these tricks.
+              This repository contains a dataset of accelerometry signals from skateboarding tricks, 
+              together with a trained an ensemble of neural networks to distinguish these tricks.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
-              <li class="project__stack-item">Keras</li>
+              <li class="project__stack-item">Scikit-learn</li>
               <li class="project__stack-item">TensorFlow</li>
+              <li class="project__stack-item">PyTorch</li>
             </ul>
 
             <a
@@ -366,30 +383,24 @@
 
           <div class="project">
             <div class="card-title">
-              <img src="https://cdn-icons-png.flaticon.com/512/2665/2665311.png" width="40px">
-              <h3>Password Cracking</h3>
+              <img src="https://cdn-icons-png.flaticon.com/512/1374/1374723.png" width="40px">
+              <h3>AIRES Playground</h3>
+              <p class="project__description">
+              The AIRES Playground is a web app that contains all of the tools and research results made 
+              possible by AIRES at PUCRS.
+              </p>
             </div>
             <p class="project__description">
-              A simple <code>Dash app</code> designed to illustrate the vulnerabilities associated with 
-              having weak passwords (<i>encrypted with broken hashes</i>).
+              
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
               <li class="project__stack-item">Dash</li>
+              <li class="project__stack-item">Gradio</li>
             </ul>
 
             <a
-              href="https://github.com/Nkluge-correa/password-cracking"
-              data-tippy-content="Password Cracking 🔒"
-              class="link link--icon"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://password-cracking.onrender.com/"
-              data-tippy-content="Password Cracking Demo"
+              href="https://playground.airespucrs.org/"
+              data-tippy-content="AIRES Playground 🎮"
               class="link link--icon"
               target="_blank" 
               rel="noopener noreferrer"
@@ -404,13 +415,12 @@
               <h3>Greenmotor.ai</h3>
             </div>
             <p class="project__description">
-              Greenmotor is a startup that uses artificial intelligence to reduce supermarket food waste. 
-              Greenmotor proposes to bring assertive results of sales forecast, ideal stock, purchase proposal, and pricing 
-              to the supermarket segment.
+              Greenmotor is a startup that uses predictive models to reduce supermarket food waste.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Scikit-learn</li>
               <li class="project__stack-item">TensorFlow</li>
+              <li class="project__stack-item">PyTorch</li>
             </ul>
 
             <a
@@ -431,6 +441,34 @@
       <section class="section contact publications" id="publications">
         <div class="publications center">
           <h2 class="section__title">Recent Publications</h2>
+          
+          <i><h3 class="link publication__title">TeenyTinyLlama: open-source tiny language models trained in Brazilian Portuguese</h3></i>
+            <div class="publication__abstract">
+              Large language models (LLMs) have significantly advanced natural language processing, but their progress has yet to be 
+              equal across languages. While most LLMs are trained in high-resource languages like English, multilingual models generally 
+              underperform monolingual ones. Additionally, aspects of their multilingual foundation sometimes restrict the byproducts 
+              they produce, like computational demands and licensing regimes. In this study, we document the development of 
+              open-foundation models tailored for use in low-resource settings, their limitations, and their benefits. This is the <i>TeenyTinyLlama</i> 
+              pair: two compact models for Brazilian Portuguese text generation. We release them under the permissive Apache 2.0 license 
+              on <a href="https://github.com/Nkluge-correa/TeenyTinyLlama" target="_blank" rel="noopener noreferrer">
+                <b class="gradiant-effect">GitHub</b></a> and <a href="https://huggingface.co/collections/nicholasKluge/teenytinyllama-6582ea8129e72d1ea4d384f1" target="_blank" rel="noopener noreferrer">
+                  <b class="gradiant-effect">Hugging Face</b></a> for community use and further development.
+              <br>
+              
+              <div style="text-align: center;">
+
+                <a
+                href="https://arxiv.org/abs/2401.16640"
+                data-tippy-content="arxiv:2401.16640"
+                class="link link--icon"
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
+                <i aria-hidden="true" class="fa-solid fa-newspaper"></i>
+                </a>
+
+              </div>
+            </div>
 
           <i><h3 class="link publication__title">Worldwide AI Ethics: a review of 200 guidelines and recommendations for AI governance</h3></i>
             <div class="publication__abstract">
