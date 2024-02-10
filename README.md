@@ -1,4 +1,4 @@
-# Hello World 🤗
+# Hey World 🤗
 
 I am Nicholas Kluge Corrêa, and this is my [personal website](https://Nkluge-correa.github.io)!
 
