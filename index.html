@@ -128,12 +128,12 @@
 
           <div class="project">
             <div class="card-title">
-              <img src="https://cdn-icons-png.flaticon.com/512/2332/2332660.png" width="40px">
-              <h3>Mula</h3>
+              <img src="https://cdn-icons-png.flaticon.com/512/8027/8027845.png" width="40px">
+              <h3>Tucano</h3>
             </div>
             <p class="project__description">
-              Mula is a series of Sparse Mixture of Experts (SMoE) language models, all trained natively in Brazilian 
-              Portuguese, designed to help democratize LLMs for low-resource languages.
+              Tucano is a series of decoder-transformers based on the Llama 2 architecture, pretrained natively in Portuguese,
+               designed to help democratize LLMs for low-resource languages.
             </p>
             <ul class="project__stack">
               <li class="project__stack-item">Transformers</li>
@@ -142,7 +142,17 @@
             </ul>
 
             <a
-              href="https://huggingface.co/MulaBR"
+              href="https://github.com/Nkluge-correa/Tucano"
+              data-tippy-content="GitHub"
+              class="link link--icon"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <a
+              href="https://huggingface.co/TucanoBR"
               data-tippy-content="Hugging Face"
               class="link link--icon"
               target="_blank" 
@@ -425,6 +435,37 @@
       <section class="section contact publications" id="publications">
         <div class="publications center">
           <h2 class="section__title">Recent Publications</h2>
+
+          <i><h3 class="link publication__title">Tucano: Advancing Neural Text Generation for Portuguese</h3></i>
+            <div class="publication__abstract">
+              Significant advances have been made in natural language processing in recent years. However, our current deep learning approach to language 
+              modeling requires substantial resources in terms of data and computation. One of the side effects of this data-hungry 
+              paradigm is the current schism between languages, separating those considered high-resource, where most of the development 
+              happens and resources are available, and the low-resource ones, which struggle to attain the same level of performance and 
+              autonomy. This study aims to introduce a new set of resources to stimulate the future development of neural text generation 
+              in Portuguese. In this work, we document the development of <i><b class="gradiant-effect">GigaVerbo</b></i>, a concatenation of deduplicated 
+              Portuguese text corpora amounting to 200 billion tokens. Via this corpus, we trained a series of decoder-transformers 
+              named <i><b class="gradiant-effect">Tucano</b></i>. Our models perform equal or superior to other Portuguese and multilingual language models of similar size in several 
+              Portuguese benchmarks. The evaluation of our models also reveals that model performance on many currently available benchmarks 
+              used by the Portuguese NLP community has <i><b class="gradiant-effect">little to no correlation</b></i> with the scaling of token ingestion during 
+              training, highlighting the limitations of such evaluations when it comes to the assessment of Portuguese generative language models. 
+              All derivatives of our study are openly released on <a href="https://github.com/Nkluge-correa/Tucano" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">GitHub</b></a> and <a href="https://huggingface.co/TucanoBR" target="_blank" rel="noopener noreferrer"><b class="gradiant-effect">Hugging Face</b></a>.
+              <br>
+              
+              <div style="text-align: center;">
+
+                <a
+                href="https://arxiv.org/abs/2411.07854"
+                data-tippy-content="arxiv:2411.07854"
+                class="link link--icon"
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
+                <i aria-hidden="true" class="fa-solid fa-newspaper"></i>
+                </a>
+
+              </div>
+            </div>
 
           <i><h3 class="link publication__title">Dynamic Normativity: Necessary and Sufficient Conditions for Value Alignment</h3></i>
             <div class="publication__abstract">
