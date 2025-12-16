@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+<i>“A selection of projects I’m especially proud to have contributed to.”</i>
+
+{% include base_path %}
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
