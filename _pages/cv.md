@@ -18,9 +18,12 @@ Education
 
 Work experience
 ======
-* **Feb 2024 —  Present:** Postdoc Researcher at Center for Science and Thought, University of Bonn
-  * At the [Center for Science and Thought](https://www.cst.uni-bonn.de/en), I work on the "Zertifizierte KI project, one of the KI.NRW flagship projects financed by the Ministry of Economic Affairs, Innovation, Digitalization, and Energy of the State of North Rhine-Westphalia, which seeks to develop certification methods for trustworthy artificial intelligence (AI).
-  * Currently, I'm also one of the Principal Investigators behind the TRA6-funded Polyglot project.
+* **Feb 2026 — present:** Postdoc Researcher at the Bonn-Aachen International Center for Information Technology (b-it) / CAISA Lab, University of Bonn
+  * At the [Bonn-Aachen International Center for Information Technology (b-it)](https://www.b-it-center.de/) / [CAISA Lab](https://caisa-lab.github.io/), my main areas of research are LLMs (focus on low-resource languages) and alignment. I also work in applied ethics and experimental philosophy.
+  * Currently, I'm also one of the Principal Investigators behind the TRA6-funded Polyglot project, developing open-source foundation models for low-resource languages.
+
+* **Feb 2024 — Feb 2026:** Postdoc Researcher at Center for Science and Thought, University of Bonn
+  * At the [Center for Science and Thought](https://www.cst.uni-bonn.de/en), I worked on the "Zertifizierte KI project, one of the KI.NRW flagship projects financed by the Ministry of Economic Affairs, Innovation, Digitalization, and Energy of the State of North Rhine-Westphalia, which seeks to develop certification methods for trustworthy artificial intelligence (AI).
 
 * **Oct 2023 — May 2024**: Research Scholar at University of Bonn
   * I was a PhD research scholar at the University of Bonn. There, I have developed (1) a series of [language models and datasets](https://huggingface.co/collections/nicholasKluge/aira) designed to align large language models, and (2) a series of [open-access educational lectures](https://github.com/Nkluge-correa/TeenyTinyCastle) on how to create ethical and safe ML systems.
