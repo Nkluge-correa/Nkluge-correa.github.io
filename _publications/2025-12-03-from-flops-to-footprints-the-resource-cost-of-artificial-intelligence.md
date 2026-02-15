@@ -6,7 +6,7 @@ permalink: /publication/2025-12-03-from-flops-to-footprints-the-resource-cost-of
 excerpt: 'This study quantifies the material footprint of AI training by linking computational workloads to the elemental composition of modern GPUs. By showing how model scale drives heavy‑metal extraction and hardware turnover, it demonstrates that AI progress carries substantial material costs and argues for integrating resource efficiency into future discussions of AI scalability.'
 date: 2025-12-03
 venue: 'ArXiV'
-paperurl: 'https://arxiv.org/abs/2512.04142'
+paperurl: "https://arxiv.org/abs/2512.04142"
 ---
 
 **Abstract** 
