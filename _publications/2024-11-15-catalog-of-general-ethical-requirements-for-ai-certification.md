@@ -2,7 +2,7 @@
 title: "Catalog of General Ethical Requirements for AI Certification"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-11-15-catalog-of-general-ethical-requirements-for-ai-certification.md
+permalink: /publication/2024-11-15-catalog-of-general-ethical-requirements-for-ai-certification
 excerpt: 'This whitepaper outlines a practical and normative framework for achieving Trustworthy AI, pairing six core ethical principles with concrete, value‑specific implementation tools. By linking fairness, privacy, safety, sustainability, transparency, explainability, and truthfulness to risk‑assessment criteria aligned with the EU AI Act, it offers stakeholders a blueprint for meeting minimum ethical and certification requirements.'
 date: 2024-11-15
 venue: 'Whitepaper'
