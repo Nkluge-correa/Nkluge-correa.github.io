@@ -2,7 +2,7 @@
 title: "Counterfactual Analysis by Algorithmic Complexity: A metric between possible worlds"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-03-17-superalignment-with-dynamic-human-values.md
+permalink: /publication/2025-03-17-superalignment-with-dynamic-human-values
 excerpt: 'This work proposes a new alignment framework that unifies scalable oversight with the evolving nature of human values. By training a superhuman reasoning model to decompose tasks and leveraging the part‑to‑complete generalization hypothesis, it outlines a path for ensuring that aligned subtask solutions reliably extend to full, complex behaviors.'
 date: 2025-03-17
 venue: 'ICLR 2025 Workshop on Bidirectional Human-AI Alignment (BiAlign)'
