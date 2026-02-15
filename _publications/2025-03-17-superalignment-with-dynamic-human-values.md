@@ -1,5 +1,5 @@
 ---
-title: "Counterfactual Analysis by Algorithmic Complexity: A metric between possible worlds"
+title: "Superalignment With Dynamic Human Values"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-03-17-superalignment-with-dynamic-human-values
