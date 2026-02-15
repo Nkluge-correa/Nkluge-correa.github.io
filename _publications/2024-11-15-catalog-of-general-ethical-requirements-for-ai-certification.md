@@ -6,7 +6,7 @@ permalink: /publication/2024-11-15-catalog-of-general-ethical-requirements-for-a
 excerpt: 'This whitepaper outlines a practical and normative framework for achieving Trustworthy AI, pairing six core ethical principles with concrete, value‑specific implementation tools. By linking fairness, privacy, safety, sustainability, transparency, explainability, and truthfulness to risk‑assessment criteria aligned with the EU AI Act, it offers stakeholders a blueprint for meeting minimum ethical and certification requirements.'
 date: 2024-11-15
 venue: 'Whitepaper'
-paperurl: '[https://doi.org/10.1590/0100-6045.2022.V45N4.NN](https://arxiv.org/abs/2408.12289)'
+paperurl: 'https://arxiv.org/abs/2408.12289'
 ---
 
 **Abstract** 
