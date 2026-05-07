@@ -1,11 +1,11 @@
 ---
-title: " Standardization of AI Ethics: Stakeholders, Values and Profit"
+title: "Standardization of AI Ethics: Stakeholders, Values and Profit"
 collection: publications
 category: books
 permalink: /publication/2026-04-01-standardization-of-ai-ethics
-excerpt: ''
+excerpt: 'This book explores the complex relationship between AI, ethics, societal values and standardization, discussing the challenges and opportunities involved in standardizing AI ethics, including algorithmic audits, stakeholder participation and certification mechanisms.'
 date: 2026-04-01
-venue: '[transcript]'
+venue: 'transcript Verlag'
 paperurl: 'https://www.transcript-verlag.de/978-3-8376-8241-0/standardization-of-ai-ethics/?number=978-3-8394-7843-1'
 ---
 
