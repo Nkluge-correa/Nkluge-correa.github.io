@@ -3,7 +3,7 @@ title: "From computation to environmental cost: the resource burden of artificia
 collection: publications
 category: manuscripts
 permalink: /publication/2026-05-07-from-computation-to-environmental-cost
-excerpt: ''
+excerpt: 'In this study, we quantify the material footprint of artificial intelligence training by linking computational workloads to physical hardware needs. We analyze the elemental composition of a widely used graphics processing unit and find that AI hardware consists of approximately 90% heavy metals. Training a large language model requires between 1760 and 8800 graphics processing units, highlighting the need to incorporate material resource considerations into discussions of AI scalability and sustainability.'
 date: 2026-05-07
 venue: 'Nature: Communications Earth & Environment'
 paperurl: "https://www.nature.com/articles/s43247-026-03537-5"
