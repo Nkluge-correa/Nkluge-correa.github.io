@@ -17,7 +17,7 @@ We present Tucano 2, a fully open suite of large language models (LLMs) with 0.5
 
 ```bibtex
 @misc{correa2026tucano2cool,
-      title={{Tucano 2 Cool: Better Open Source LLMs for Portuguese}}, 
+      title={Tucano 2 Cool: Better Open Source LLMs for Portuguese}, 
       author={Nicholas Kluge Corr{\^e}a and Aniket Sen and Shiza Fatimah and Sophia Falk and Lennard Landgraf and Julia Kastner and Lucie Flek},
       year={2026},
       eprint={2603.03543},
