@@ -17,7 +17,7 @@ The dominance of large multilingual foundation models has widened linguistic ine
 
 ```bibtex
 @misc{shiza2026lilmoo,
-      title={{Raising Bars, Not Parameters: LilMoo Compact Language Model for Hindi}}, 
+      title={Raising Bars, Not Parameters: LilMoo Compact Language Model for Hindi}, 
       author={Shiza Fatimah and Aniket Sen and Sophia Falk and Florian Mai and Lucie Flek and Nicholas Kluge Corr{\^e}a},
       year={2026},
       eprint={2603.03508},
