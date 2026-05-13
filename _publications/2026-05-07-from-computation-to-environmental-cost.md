@@ -17,7 +17,7 @@ Here we quantify the material footprint of artificial intelligence training by l
 
 ```bibtex
 @article{Falk2026,
-  author    = {Falk, S. and Kluge Corr{\^e}a, N. and Luccioni, S. and others},
+  author    = {Falk, S. and Kluge Corr{\^e}a, N. and Luccioni, S. and Biber-Freudenberger, L. and van Wynsberghe, A.},
   title     = {From computation to environmental cost: the resource burden of artificial intelligence},
   journal   = {Communications Earth \& Environment},
   volume    = {7},
