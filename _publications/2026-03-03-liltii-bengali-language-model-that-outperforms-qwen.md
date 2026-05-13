@@ -17,7 +17,7 @@ Big multilingual foundation models pretty much run the show in NLP right now —
 
 ```bibtex
 @misc{fatimah2026liltii,
-  title={{LilTii: A 0.6B Bengali Language Model that Outperforms Qwen}},
+  title={LilTii: A 0.6B Bengali Language Model that Outperforms Qwen},
   author={Shiza Fatimah and Aniket Sen and Sophia Falk and Florian Mai and Lucie Flek and Nicholas Kluge Corr{\^e}a},
   year={2026},
   howpublished={\url{https://hf.co/blog/Polygl0t/liltii}}
