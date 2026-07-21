@@ -1,5 +1,5 @@
 ---
-title: " Normative Ethics, Artificial Intelligence, and Value Alignment: From Normative Theory to Engineering Practices"
+title: "Normative Ethics, Artificial Intelligence, and Value Alignment: From Normative Theory to Engineering Practices"
 collection: publications
 category: books
 permalink: /publication/2026-05-21-normative-ethics-artificial-intelligence-value-alignment
